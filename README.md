@@ -1,4 +1,4 @@
-# Quick deploy AKS on Azure with a sample App
+# Deploy a Modern Application on Azure Kubernetes Service in just a few steps
 
 This repo is based on http://aksworkshop.io/ from Microsoft learn AKS workshop. You should follow the step by step tutorial if you are learning first time. This repo is a consolidated script of the same workshop to help create the deployment without having to explore. Save time and experiment with a deployment under 30 mins on your own or demo to someone you want.
 
