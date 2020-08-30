@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: ratings-web
-        image: <your acr name>.azurecr.io/ratings-web:v1 # IMPORTANT: update with your own repository
+        image: acr10.azurecr.io/ratings-web:v1 # IMPORTANT: update with your own repository<your acr name>
         imagePullPolicy: Always
         ports:
         - containerPort: 8080 # the application listens to this port

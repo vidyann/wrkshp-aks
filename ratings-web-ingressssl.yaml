@@ -8,10 +8,10 @@ metadata:
 spec:
   tls:
     - hosts:
-      - frontend.<your public ip>.nip.io # IMPORTANT: update <ingress ip> with the dashed public IP of your ingress, for example frontend.13-68-177-68.nip.io
+      - frontend.52.152.245.212.nip.io # IMPORTANT: update <ingress ip> with the dashed public IP of your ingress, for example frontend.13-68-177-68.nip.io
       secretName: ratings-web-cert
   rules:
-  - host: frontend.<your public ip>.nip.io # IMPORTANT: update <ingress ip> with the dashed public IP of your ingress, for example frontend.13-68-177-68.nip.io
+  - host: frontend.52.152.245.212.nip.io # IMPORTANT: update <ingress ip> with the dashed public IP of your ingress, for example frontend.13-68-177-68.nip.io
     http:
       paths:
       - backend:

@@ -1,8 +1,9 @@
 REGION_NAME=eastus
-RESOURCE_GROUP=aksworkshop01
-SUBNET_NAME=aks-subnet
-VNET_NAME=aks-vnet
-WORKSPACE=aksworkshop-workspace-$RANDOM
+RESOURCE_GROUP=aksworkshop10
+SUBNET_NAME=aks-subnet10
+VNET_NAME=aks-vnet10
+WORKSPACE=aksworkshop-workspace-Github
+AKS_CLUSTER_NAME=aksworkshop-Github
 
 az group create --name $RESOURCE_GROUP --location $REGION_NAME
 

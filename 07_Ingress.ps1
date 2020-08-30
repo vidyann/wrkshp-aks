@@ -7,4 +7,6 @@ helm install nginx-ingress stable/nginx-ingress --namespace ingress --set contro
 kubectl get service nginx-ingress-controller --namespace ingress -w
 
 # update public ip from previous command in the ratings-web-ingresswithSSL.yaml
-kubectl apply --namespace ratingsapp -f ratings-web-ingresswithSSL.yaml
+kubectl apply --namespace ratingsapp -f ratings-web-ingressssl.yaml
+kubectl apply --namespace ratingsapp -f ratings-api-deployment.yaml
+
